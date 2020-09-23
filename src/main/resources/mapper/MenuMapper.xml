@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.angular.angulartest.dao.mapper.MenuMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.angular.angulartest.dao.entity.Menu">
+        <id column="MENU_ID" property="menuId" />
+        <result column="MENU_NAME" property="menuName" />
+        <result column="MENU_URL" property="menuUrl" />
+        <result column="MENU_STATUS" property="menuStatus" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="PARENT_MENU_ID" property="parentMenuId" />
+    </resultMap>
+
+</mapper>
