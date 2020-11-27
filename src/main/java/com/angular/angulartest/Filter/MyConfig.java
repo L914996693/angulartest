@@ -1,3 +1,4 @@
+/*
 package com.angular.angulartest.Filter;
 
 import org.springframework.context.annotation.Bean;
@@ -18,3 +19,4 @@ public class MyConfig extends WebMvcConfigurationSupport {
         registry.addInterceptor(getSessionInterceptor()).addPathPatterns("/**");
     }
 }
+*/

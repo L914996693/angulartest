@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.angular.angulartest.dao.mapper.FboUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.angular.angulartest.dao.entity.FboUser">
+        <id column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="user_shop_name" property="userShopName" />
+        <result column="user_org_id" property="userOrgId" />
+        <result column="user_shop_org_id" property="userShopOrgId" />
+        <result column="user_k3_code" property="userK3Code" />
+    </resultMap>
+
+</mapper>

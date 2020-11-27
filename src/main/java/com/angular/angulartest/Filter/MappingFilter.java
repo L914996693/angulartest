@@ -1,3 +1,4 @@
+/*
 package com.angular.angulartest.Filter;
 
 import com.angular.angulartest.util.IpUtils;
@@ -58,12 +59,14 @@ public class MappingFilter implements HandlerInterceptor {
 
     }
 
-    /**
+    */
+/**
      * md5加密
      *
      * @param str
      * @return
-     */
+     *//*
+
     public static String getMD5(String str) {
         MessageDigest md = null;
         try {
@@ -83,3 +86,4 @@ public class MappingFilter implements HandlerInterceptor {
         }
     }
 }
+*/

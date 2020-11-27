@@ -4,7 +4,7 @@ server:
   servlet:
     session:
       timeout: 600s
-    context-path: /angular
+    #context-path: /angular
   tomcat:
     uri-encoding: UTF-8
     max-connections: 10000
@@ -15,7 +15,7 @@ spring:
   #  \u6570\u636E\u5E93
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@//192.168.1.107:1521/ORCL
+    url: jdbc:oracle:thin:@//127.0.0.1:1521/ORCL
     username: angualrdatabase
     password: angular
     type: com.alibaba.druid.pool.DruidDataSource

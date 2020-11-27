@@ -15,4 +15,7 @@
         <result column="CREATE_TIME" property="createTime" />
     </resultMap>
 
+    <select id="usercount">
+        select * from AN_USER
+    </select>
 </mapper>

@@ -107,4 +107,13 @@ public class angularController {
         }
         return json;
     }
+
+    @GetMapping("websocket")
+    public JSONObject webst(@RequestParam("userId") String userId){
+        JSONObject json = new JSONObject();
+        System.out.println("userId");
+        json.put("message",3);
+        json.put("user",userId);
+        return json;
+    }
 }

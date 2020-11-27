@@ -20,7 +20,7 @@ public class MybatisGenerator {
 
     //数据库配置
     final static String DBDriver = "oracle.jdbc.driver.OracleDriver";
-    final static String DBUrl = "jdbc:oracle:thin:@//192.168.1.107:1521/ORCL";
+    final static String DBUrl = "jdbc:oracle:thin:@//127.0.0.1:1521/ORCL";
     final static String DBUsername = "angualrdatabase";
     final static String DBPassword = "angular";
 
@@ -101,12 +101,12 @@ public class MybatisGenerator {
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
         strategy.setEntityLombokModel(true);
-        strategy.setTablePrefix(new String[] { "AN_" });// 此处可以修改为您的表前缀
+        strategy.setTablePrefix(new String[] { "CD_" });// 此处可以修改为您的表前缀
         // 设置逻辑删除键
         strategy.setLogicDeleteFieldName("is_delete");
 
         // TODO 指定生成的bean的数据库表名
-        strategy.setInclude("AN_RM");//AN_ROLE_MENU AN_ROLE  AN_MENU AN_USER
+        strategy.setInclude("CD_PAYMENT");//AN_ROLE_MENU AN_ROLE  AN_MENU AN_USER
         //strategy.setSuperEntityColumns("id");
         // 驼峰转连字符
         strategy.setControllerMappingHyphenStyle(true);
